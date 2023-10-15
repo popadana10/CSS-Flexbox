@@ -1,0 +1,43 @@
+body {
+    background: #eee;
+  }
+  
+  .first {
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  .flex-container {
+    display: flex;
+    background-color: white;
+  }
+  
+  /*.flex-container::after {
+    content: "";
+    display: block;
+    clear: both;
+  }*/
+  
+  .box {
+    height: 100px;
+    min-width: 100px;
+  }
+  
+  .one {
+    background-color: red;
+    flex-grow: 2;
+  }
+  
+  .two {
+    background-color: blue;
+    flex-grow: 2;
+  }
+  
+  .three {
+    background-color: green;
+    flex-grow: 3;
+  } 
+
+  #blocks {
+    display: flex;
+  }
