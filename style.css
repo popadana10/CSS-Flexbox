@@ -50,3 +50,12 @@ body {
   /*flex-shrink: 3;*/
   /*flex-basis: 300px;*/
 }
+
+.first {
+  background-color: violet;
+}
+
+.first:hover {
+  background-color: green;
+  cursor: pointer;
+}
